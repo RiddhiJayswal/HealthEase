@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* ----navbar---- */
+nav{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding:10px 20px;
+    background-image: linear-gradient(30deg,rgb(12, 10, 10),rgb(84, 13, 199),rgb(35, 152, 160));
+    align-items: center;
+    display: flex;
+    box-shadow:0 0 50px 0 rgb(31, 33, 63) ;
+    border-top: 5px;    
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+a.nav-link,a:hover{
+    color:white;
+    transition: .5s;
+}
+/* SECTION 1 */
+.section1{
+    background-image: linear-gradient(30deg,rgb(7, 7, 7),rgb(22, 37, 105),rgb(35, 156, 160)); 
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        margin-top: 10px;
+        background-attachment: fixed;
+        background-repeat: repeat;
+}
+.section1 p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 20px;
+}
+.section1 h1{
+    text-align: center;
+    color: #fff;
+}
+
+/* SECTION 2 */
+.section2{
+    padding: 80px 50px;
+}
+.section2{
+    text-align: center;
+    color: blue;
+    align-items:stretch ;
+}
+.section2 .card{
+    border: none;
+    height: 400px;
+    box-shadow: 0px 5px 10px 0px grey;
+    margin: 10px;
+
+}
+.section2 .card .service-img{
+    overflow:hidden
+    
+}
+.section2 .card .service-content{
+    padding: 20px;
+}
+.section2 .card .service-content h4{
+    color: rgb(15, 158, 177);
+    font-size: 20px;
+}
+.section2 .card .service-content p{
+    opacity: 0.5;
+}
+.section2 .card .service-content a{
+     text-decoration: none;
+     color: blue;
+     font-weight: 600;
+     
+}
+.section2 .card .service-content a:hover{
+    color: aqua;
+}
+/* section 3 */
+.section3{
+    padding: 80px 50px;
+}
+.section3{
+    text-align: center;
+    color: blue;
+    align-items:stretch ;
+}
+.section3 .card{
+    border: none;
+    height: 400px;
+    box-shadow: 0px 5px 10px 0px grey;
+    margin: 0px;
+
+}
+.section3 .card .service-img{
+    overflow:hidden
+    
+}
+.section3 .card .service-content{
+    padding: 20px;
+}
+.section3 .card .service-content h4{
+    color: rgb(15, 158, 177);
+    font-size: 20px;
+}
+.section3 .card .service-content p{
+    opacity: 0.5;
+}
+.section3 .card .service-content a{
+     text-decoration: none;
+     color: blue;
+     font-weight: 600;
+     
+}
+.section3 .card .service-content a:hover{
+    color: aqua;
+}
+
+.specialists p{
+   margin: 50px;
+   font-size: 40px;
+   text-decoration: underline;
+   font-weight: 600;
+}
+
+.Any {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673953509975-576678fa6710?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+);
+
+}
+
+.wrapper {
+    width:420px;
+    background :transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0, 0, .2);
+    color:#fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius:  40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+
+}
+
+.input-box i {
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform:translateY(-50%);
+    font-size: 20 px;
+
+}
+
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forget label input {
+    accent-color:#fff;
+    margin-right: 3px;
+
+}
+
+.remember-forget a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.wrapper .register-link{
+    font-size: 14;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* css for register form */
+ .reg{
+    background: url(https://images.unsplash.com/photo-1692538643781-96a38f4bb91e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: 280%;
+    background-position: -400px 0px;
+}
+div .register
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 2px 2px 15px;
+    color: rgba (0,0,0,0.3);
+    color:#fff;
+
+
+}
+form#register{
+    margin: 40px;
+
+ }
+
+ label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style:italic;
+
+ }
+
+ input #name {
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .3);
+ }
+
+ input #submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250, 100, 0, .8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+ }
+ label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+
+ }
+ 
